@@ -1,0 +1,88 @@
+body{
+  display: flex;
+  justify-content: center;
+  
+}
+
+.App{
+  display: flex;
+  flex-direction: column;
+}
+.Nav {
+  display: flex;
+  justify-content: space-around;
+  background-color: #0070FF;
+  color: white;
+  font-size: 17px;
+  
+}
+
+.numberExs {
+  display: flex;
+  gap: 15px;
+  color: rgba(255, 255, 255, 0.372);
+}
+
+.numberExs h2:nth-child(3) {
+  color: white;
+}
+h2.exercise{
+ margin: 0px;
+}
+
+/* info */
+.textInfo {
+  display: flex;
+  flex-direction: column;
+  background-color: #CBE9EF;
+ 
+  border-radius: 10px;
+  border-color: #0070FF;
+  padding: 10px;
+  margin: 20px;
+  
+}
+.ComponentA{
+  padding: 5px;
+  border: 2px solid black;
+  font-weight: 400;
+  
+}
+
+.ComponentB{
+  padding: 5px;
+
+  border: 2px solid black;
+  margin: 10px;
+  
+
+}
+.ComponentC{
+  padding: 5px;
+  border: 2px solid black;
+  margin: 30px;
+  
+}
+
+h1{
+  font-weight: 400;
+}
+
+strong{
+  color: red;
+  font-weight: 400;
+
+}
+
+button {
+  background-color: #0070FF;
+  box-shadow: none;
+  
+  height: 40px;
+  border-radius: 7px;
+  color: #CBE9EF;
+  font-size: 25px;
+  box-shadow: 0px;
+ 
+
+}
